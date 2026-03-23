@@ -12,7 +12,7 @@ public class BookShelf implements Iterable<Book> {
     }
 
     public Book getBookAt(int index) {
-        return books.get(index);
+        return books.get(index); //arraylist의 get 메소드 사용하여 책을 가져옴 (배열대신)
     }
 
     public void appendBook(Book book) {
