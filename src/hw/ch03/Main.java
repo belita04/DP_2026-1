@@ -11,7 +11,7 @@ public class Main {
         d1.display();
         d2.display();
 
-        System.out.println();
+        System.out.println(); 
 
         System.out.println("=== [3-2] Step 1 테스트: 반복 횟수 제어 ===");
         AbstractDisplay d3 = new CharDisplay('X', 3);      // 3회
