@@ -6,4 +6,11 @@ public class Main {
         banner.showWithParen();
         banner.showWithAster();
 
+        //어댑터 이용
+        System.out.println("어댑터 이용");
+        Print print = new PrintBannerAdapter01("Hello World");
+        print.printWeak();  
+        print.printStrong();
+        
+    }
 }

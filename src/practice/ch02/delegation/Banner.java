@@ -1,5 +1,6 @@
 package practice.ch02.delegation;
 
+//이미 제공되는 클래스
 public class Banner {
     private String string;
 
@@ -7,7 +8,7 @@ public class Banner {
         this.string = string;
     }
 
-    public void showWithParen() {
+    public void showWithParen() { //public void showWithParen() 메소드 프로토타입
         System.out.println("(" + string + ")");
     }
 
