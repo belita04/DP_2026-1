@@ -5,10 +5,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Triple {
-    private static Map<String,Triple> map = new HashMap<>();
+    private static Map<String,Triple> map = new HashMap<>(); // Triple 객체 3개를 저장할 Map
     static {
         String[] names = { "ALPHA", "BETA", "GAMMA" };
-        Arrays.stream(names).forEach(s -> map.put(s, new Triple(s)));
+        Arrays.stream(names).forEach(s -> map.put(s, new Triple(s))); //<키, 값> 쌍으로 Triple 객체를 만들어 Map에 저장
     }
 
     private String name;
