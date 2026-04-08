@@ -26,6 +26,7 @@ public class MessageBox implements Product {
     }
 
     @Override
+    //복제 메소드
     public Product createCopy() {
         Product p = null;
         try {
