@@ -30,12 +30,12 @@ public abstract class Entry {
 
     // 전체 경로를 가져온다 
     public String getFullName() {
-        StringBuilder fullname = new StringBuilder();
+        StringBuilder fullname = new StringBuilder(); // 전채 경로 변수
         Entry entry = this;
         do {
             fullname.insert(0, entry.getName());
             fullname.insert(0, "/");
-            entry = entry.parent;
+            entry = entry.parent; // 부모로 이동한다. (트리의 윗 방향으로 이동)
         } while (entry != null);
         return fullname.toString();
     }

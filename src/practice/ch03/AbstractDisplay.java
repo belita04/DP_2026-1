@@ -8,7 +8,7 @@ public abstract class AbstractDisplay {
 
     // display는 AbstractDisplay에서 구현하는 메소드 
     //큰 틀(흐름, 구조)을 제공함 -> 템플릿 메소드 패턴 `
-    public final void display() { //final: 하위클래스에서 오버라이드 할 수 없다(큰 흐름은 자식들이 바꿀 수 다)
+    public final void display() { //final: 하위클래스에서 오버라이드 할 수 없다(큰 흐름은 자식들이 바꿀 수 없다)
         open();
         for (int i = 0; i < 5; i++) {
             print();

@@ -2,7 +2,8 @@ package practice.ch01;
 
 import java.util.Iterator;
 //java.lang은 자동으로 import되기 때문에 생략 가능
-public class BookShelf implements Iterable<Book> { /*주석해제하면 방법2 */
+public class BookShelf implements 
+ { /*주석해제하면 방법2 */
 //public class BookShelf { /*주석해제하면 방법1 */
     private Book[] books; //배열 선언 책꽂이가 책을 가지고 있다.
     private int last = 0; //책의 마지막 위치
