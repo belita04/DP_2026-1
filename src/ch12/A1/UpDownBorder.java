@@ -23,12 +23,12 @@ public class UpDownBorder extends Border {
 
     @Override
     public String getRowText(int row) {
-        if (row == 0 || row == getRows() - 1) {
+        if (row == 0 || row == getRows() - 1) { //총 3줄 3-1 = 2 마지막 줄
             // 맨 위와 맨 아래는 장식 문자만의 행
             return makeLine(borderChar, getColumns());
         } else {
             // 내용물의 행(맨 위 행수만큼 행 번호를 줄인다
-            return display.getRowText(row - 1);
+            return display.getRowText(row - 1); // 1번 행 을 호출 하면 0을 호출
         }
     }
 
