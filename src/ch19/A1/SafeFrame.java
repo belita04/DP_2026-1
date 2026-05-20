@@ -40,7 +40,7 @@ public class SafeFrame extends Frame implements ActionListener, Context {
         // 그 패널을 배치 
         add(panel, BorderLayout.SOUTH);
 
-        // 버튼이 눌렸을 때의 리스너를 람다식으로 설정
+        // 버튼이 눌렸을 때의 리스너를 람다식으로 설정(this 가 람다식으로 바뀜) -> if 절이 없어져서 로직이 간단해짐. 
         buttonUse.addActionListener(e -> state.doUse(this));
         buttonAlarm.addActionListener(e -> state.doAlarm(this));
         buttonPhone.addActionListener(e -> state.doPhone(this));

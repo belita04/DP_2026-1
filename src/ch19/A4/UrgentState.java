@@ -1,5 +1,5 @@
 package ch19.A4;
-
+// 비상상태
 public class UrgentState implements State {
     private static UrgentState singleton = new UrgentState();
 
@@ -18,6 +18,7 @@ public class UrgentState implements State {
     @Override
     public void doUse(Context context) {		// 금고 사용 
         context.callSecurityCenter("비상:비상시 금고 사용!");
+        // 낮 상태로 다시 초기화 할 부분이 필요하다.(문제점)
     }
 
     @Override
