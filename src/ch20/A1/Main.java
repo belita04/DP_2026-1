@@ -9,8 +9,10 @@ public class Main {
         }
 
         BigString bs;
+
         bs = new BigString(args[0], false);     // 공유하지 않는다 
         bs.print();
+        
         bs = new BigString(args[0], true);      // 공유한다 
         bs.print();
     }
