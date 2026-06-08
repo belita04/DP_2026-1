@@ -45,7 +45,7 @@ public class DrawCanvas extends Canvas implements Drawable {
     }
 
     @Override
-    public void setColor(Color color) {
+    public void setColor(Color color) { // 색 설정 메소드
         this.color = color;
     }
 }

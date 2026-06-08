@@ -2,3 +2,4 @@ hyuki@example.com=Hiroshi Yuki
 youngjin@example.com=Kim Youngjin
 dojun@example.com=dojun
 gildong@example.com=Hong Gildong
+putatu@naver.com=Lee MyeongJin

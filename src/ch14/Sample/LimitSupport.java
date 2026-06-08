@@ -1,5 +1,7 @@
 package ch14.Sample;
 
+import practice.ch14.Support;
+
 public class LimitSupport extends Support {
     private int limit; // 이 번호 미만이면 해결할 수 있다
 

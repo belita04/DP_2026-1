@@ -1,5 +1,7 @@
 package ch14.Sample;
 
+import practice.ch14.Support;
+
 public class NoSupport extends Support {
     public NoSupport(String name) {
         super(name);

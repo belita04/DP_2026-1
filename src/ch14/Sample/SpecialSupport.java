@@ -1,5 +1,7 @@
 package ch14.Sample;
 
+import practice.ch14.Support;
+
 public class SpecialSupport extends Support {
     private int number; // 이 번호만 해결할 수 있다
 

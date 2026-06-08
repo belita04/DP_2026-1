@@ -10,7 +10,7 @@ public class ColorCommand implements Command {
     private Color color;
 
     // 생성자 
-    public ColorCommand(Drawable drawable, Color color) {
+    public ColorCommand(Drawable drawable, Color color) { // 도화지와 색깔 정보를 가짐
         this.drawable = drawable;
         this.color = color;
     }

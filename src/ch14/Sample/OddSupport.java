@@ -1,5 +1,7 @@
 package ch14.Sample;
 
+import practice.ch14.Support;
+
 public class OddSupport extends Support {
     public OddSupport(String name) {
         super(name);

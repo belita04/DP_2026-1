@@ -26,3 +26,4 @@ public class StringDisplay extends Display {
         return string;
     }
 }
+

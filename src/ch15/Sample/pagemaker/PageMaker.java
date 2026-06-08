@@ -8,6 +8,7 @@ public class PageMaker {
     private PageMaker() {
     }
 
+    // 하이레벨 API
     public static void makeWelcomePage(String mailaddr, String filename) {
         try {
             Properties mailprop = Database.getProperties("maildata");

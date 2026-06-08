@@ -1,5 +1,7 @@
 package ch14.Sample;
 
+import ch14.Sample.Trouble;
+
 public abstract class Support {
     private String name;    // 이 트러블 해결자 이름
     private Support next;   // 떠넘길 곳
